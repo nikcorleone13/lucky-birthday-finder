@@ -1,0 +1,50 @@
+:root{
+    --primary-color: rgb(87, 242, 182);
+    --secondary-color: rgb(0, 98, 255);
+}
+
+body{
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.container{
+    padding-top: 1rem;
+    width: 20vw;
+    margin: auto;
+}
+
+input, label {
+    
+    text-align: center;
+    font-size: 1.5rem;
+    height: 5vh;
+    display: block;
+}
+input{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+#check-number{
+    padding: 10px;
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    border: 1px solid var(--secondary-color);
+}
+#output-box{
+    color: var(--secondary-color);
+    width: 100%;
+    margin: 2rem auto;
+    font-size: 1rem;
+    text-align: center;
+}
